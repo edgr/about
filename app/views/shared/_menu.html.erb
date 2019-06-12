@@ -1,9 +1,7 @@
 <div class="d-block d-lg-none">
-  <nav class="navbar navbar-expand-lg navbar-dark" id="navbarMenu">
+  <nav class="navbar navbar-expand-lg navbar-dark px-0" id="navbarMenu">
 
-    <a href="index.php" class="navbar-brand">
-      Edouard Garret
-    </a>
+    <%= link_to 'Edouard Garret', root_path ,class: 'navbar-brand' %>
 
     <button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navMenu" aria-expanded="false">
       <span class="navbar-toggler-icon"></span>
@@ -13,7 +11,7 @@
       <ul class="navbar-nav">
 
         <!-- RESUME SECTION-->
-        <li id="submenu" class="list-group-item sidebar-separator menu-collapsed">
+        <li class="list-group-item sidebar-separator menu-collapsed submenu">
           <small>
             RESUME
           </small>
@@ -44,7 +42,7 @@
         </li>
 
         <!-- CURRENT SECTION-->
-        <li id="submenu" class="list-group-item sidebar-separator menu-collapsed">
+        <li class="list-group-item sidebar-separator menu-collapsed submenu">
           <small>
             CURRENT
           </small>
@@ -67,7 +65,7 @@
         </li>
 
         <!-- OTHER SECTION-->
-        <li id="submenu" class="list-group-item sidebar-separator menu-collapsed">
+        <li class="list-group-item sidebar-separator menu-collapsed submenu">
           <small>OTHER</small>
         </li>
         <li class="nav-item">
@@ -87,22 +85,22 @@
           </li>
 
           <!-- CONTACT SECTION-->
-          <li id="submenu" class="list-group-item sidebar-separator menu-collapsed">
+          <li class="list-group-item sidebar-separator menu-collapsed submenu">
             <small>
               CONTACT
             </small>
           </li>
-          <div id="contact" class="d-flex">
-            <a id="socialicon" href="https://www.linkedin.com/in/edouardgarret/" target="_blank">
+          <div id="contact" class="d-flex justify-content-start">
+            <a class="socialicon" href="https://www.linkedin.com/in/edouardgarret/" target="_blank">
               <i class="fab fa-linkedin"></i>
             </a>
-            <a id="socialicon" href="mailto:edouard.garret@gmail.com" target="_blank">
+            <a class="socialicon" href="mailto:edouard.garret@gmail.com" target="_blank">
               <i class="fas fa-envelope-square"></i>
             </a>
-            <a id="socialicon" href="https://wa.me/6282247495813" target="_blank">
+            <a class="socialicon" href="https://wa.me/6282247495813" target="_blank">
               <i class="fab fa-whatsapp-square"></i>
             </a>
-            <a id="socialicon" href="tel:6282247405813" target="_blank">
+            <a class="socialicon" href="tel:6282247405813" target="_blank">
               <i class="fas fa-phone-square"></i>
             </a>
           </div>

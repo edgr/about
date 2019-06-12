@@ -1,7 +1,51 @@
 #navbarMenu {
-  background-color: #1e72bc;
+  background-color: $blue;
 }
 
-.navbar {
-  padding: 8px;
+.navbar-brand {
+  margin-left: 20px;
+}
+
+.navbar-toggler {
+  border: none;
+  margin-right: 10px;
+  color: $white;
+}
+
+.navbar-nav {
+  display: flex;
+  padding: none;
+}
+
+.submenu {
+  background-color: $lighterblue;
+  border: none;
+  margin-top: 20px;
+  color: $white;
+}
+
+.nav-item {
+  margin-left: 20px;
+  .nav-link {
+    padding: 8px 0;
+  }
+  .navlinkName {
+    color: $white;
+  }
+  i {
+    color: $white;
+  }
+}
+
+#contact {
+  margin-left: 20px;
+}
+
+.socialicon {
+  color: $white;
+  font-size: 40px;
+  margin-right: 16px;
+  :hover {
+    color: $white;
+  }
 }
