@@ -20,16 +20,29 @@
           </small>
         </li>
         <li class="nav-item">
+          <%= link_to(experience_path, html_options = { class: "nav-link" }) do %>
           <i class="fas fa-briefcase fa-fw"></i>
-          <%= link_to 'Experience', experience_path, class: "nav-link" %>
+          <span>
+            Experience
+          </span>
+          <% end %>
+
         </li>
         <li class="nav-item">
+          <%= link_to(education_path, html_options = { class: "nav-link" }) do %>
           <i class="fas fa-graduation-cap fa-fw"></i>
-          <%= link_to 'Education', education_path, class: "nav-link" %>
+          <span>
+            Education
+          </span>
+          <% end %>
         </li>
         <li class="nav-item">
+          <%= link_to(skills_path, html_options = { class: "nav-link" }) do %>
           <i class="fas fa-dumbbell fa-fw"></i>
-          <%= link_to 'Skills', skills_path, class: "nav-link" %>
+          <span>
+            Skills
+          </span>
+          <% end %>
         </li>
 
         <!-- CURRENT SECTION-->
@@ -39,48 +52,66 @@
           </small>
         </li>
         <li class="nav-item">
+          <%= link_to(clients_path, html_options = { class: "nav-link" }) do %>
           <i class="far fa-building fa-fw"></i>
-          <%= link_to 'Clients', clients_path, class: "nav-link" %>
+          <span>
+            Clients
+          </span>
+          <% end %>
         </li>
         <li class="nav-item">
+          <%= link_to(projects_path, html_options = { class: "nav-link" }) do %>
           <i class="fas fa-folder fa-fw"></i>
-          <%= link_to 'Projects', projects_path, class: "nav-link" %>
+          <span>
+            Projects
+          </span>
+          <% end %>
         </li>
 
         <!-- OTHER SECTION-->
         <li class="list-group-item sidebar-separator menu-collapsed submenu">
-          <small>OTHER</small>
+          <small>
+            OTHER
+          </small>
         </li>
         <li class="nav-item">
+          <%= link_to(hobbies_path, html_options = { class: "nav-link" }) do %>
           <i class="fas fa-quidditch fa-fw"></i>
-          <%= link_to 'Hobbies', hobbies_path, class: "nav-link" %>
+          <span>
+            Hobbies
+          </span>
+          <% end %>
         </li>
         <li class="nav-item">
+          <%= link_to(engagements_path, html_options = { class: "nav-link" }) do %>
           <i class="fas fa-globe-asia fa-fw"></i>
-          <%= link_to 'Engagements', engagements_path, class: "nav-link" %>
+          <span>
+            Engagements
+          </span>
+          <% end %>
         </li>
 
-          <!-- CONTACT SECTION-->
-          <li class="list-group-item sidebar-separator menu-collapsed submenu">
-            <small>
-              CONTACT
-            </small>
-          </li>
-          <div id="contact" class="d-flex justify-content-start">
-            <a class="socialicon" href="https://www.linkedin.com/in/edouardgarret/" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a class="socialicon" href="mailto:edouard.garret@gmail.com" target="_blank">
-              <i class="fas fa-envelope-square"></i>
-            </a>
-            <a class="socialicon" href="https://wa.me/6282247495813" target="_blank">
-              <i class="fab fa-whatsapp-square"></i>
-            </a>
-            <a class="socialicon" href="tel:6282247405813" target="_blank">
-              <i class="fas fa-phone-square"></i>
-            </a>
-          </div>
-        </ul>
-      </div>
-    </nav>
-  </div>
+        <!-- CONTACT SECTION-->
+        <li class="list-group-item sidebar-separator menu-collapsed submenu">
+          <small>
+            CONTACT
+          </small>
+        </li>
+        <div id="contact" class="d-flex justify-content-start">
+          <a class="socialicon" href="https://www.linkedin.com/in/edouardgarret/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a class="socialicon" href="mailto:edouard.garret@gmail.com" target="_blank">
+            <i class="fas fa-envelope-square"></i>
+          </a>
+          <a class="socialicon" href="https://wa.me/6282247495813" target="_blank">
+            <i class="fab fa-whatsapp-square"></i>
+          </a>
+          <a class="socialicon" href="tel:6282247405813" target="_blank">
+            <i class="fas fa-phone-square"></i>
+          </a>
+        </div>
+      </ul>
+    </div>
+  </nav>
+</div>
