@@ -10,6 +10,9 @@
   border: none;
   margin-right: 10px;
   color: $white;
+  &:focus {
+    outline: none;
+  }
 }
 
 .navbar-nav {
@@ -17,15 +20,21 @@
   padding: none;
 }
 
-.icon-bar {
-  width: 24px;
-  height: 2px;
-  background-color: $white;
-  display: block;
-  transition: all 0.2s;
-  margin-top: 6px
+.navbar-dark .navbar-nav .nav-link {
+  color: $white;
 }
 
+.nav-item {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  i {
+    color: $white;
+    margin-right: 8px;
+  }
+}
+
+// These are submenus titles
 
 .submenu {
   background-color: $lighterblue;
@@ -34,18 +43,7 @@
   color: $white;
 }
 
-.nav-item {
-  margin-left: 20px;
-  .nav-link {
-    padding: 8px 0;
-  }
-  .navlinkName {
-    color: $white;
-  }
-  i {
-    color: $white;
-  }
-}
+// This section is for the contact section and social icons
 
 #contact {
   margin-left: 20px;
@@ -55,12 +53,21 @@
   color: $white;
   font-size: 40px;
   margin-right: 16px;
-  :hover {
+  &:hover {
     color: $white;
   }
 }
 
-// This section is for the animation of the button
+// This section is for navbar toggler and its animation
+
+.icon-bar {
+  width: 24px;
+  height: 2px;
+  background-color: $white;
+  display: block;
+  transition: all 0.2s;
+  margin-top: 6px
+}
 
 .navbar-toggler .top-bar {
   transform: rotate(45deg);

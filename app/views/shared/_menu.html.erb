@@ -1,7 +1,7 @@
 <div class="d-block d-lg-none">
   <nav class="navbar navbar-expand-lg navbar-dark px-0" id="navbarMenu">
 
-    <%= link_to 'Edouard Garret', root_path ,class: 'navbar-brand' %>
+    <%= link_to 'Edouard Garret', root_path, class: 'navbar-brand' %>
 
     <button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navMenu" aria-expanded="false">
       <!-- <span class="navbar-toggler-icon"></span> -->
@@ -20,28 +20,16 @@
           </small>
         </li>
         <li class="nav-item">
-          <a href="experience.php" class="nav-link">
-            <i class="fas fa-briefcase fa-fw"></i>
-            <span class="navlinkName">
-              Experience
-            </span>
-          </a>
-        </li>
-        <li class="nav-item justify-content-start">
-          <a href="education.php" class="nav-link">
-            <i class="fas fa-graduation-cap fa-fw"></i>
-            <span class="navlinkName">
-              Education
-            </span>
-          </a>
+          <i class="fas fa-briefcase fa-fw"></i>
+          <%= link_to 'Experience', experience_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <a href="skills.php" class="nav-link">
-            <i class="fas fa-dumbbell fa-fw"></i>
-            <span class="navlinkName">
-              Skills
-            </span>
-          </a>
+          <i class="fas fa-graduation-cap fa-fw"></i>
+          <%= link_to 'Education', education_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <i class="fas fa-dumbbell fa-fw"></i>
+          <%= link_to 'Skills', skills_path, class: "nav-link" %>
         </li>
 
         <!-- CURRENT SECTION-->
@@ -51,20 +39,12 @@
           </small>
         </li>
         <li class="nav-item">
-          <a href="clients.php" class="nav-link">
-            <i class="far fa-building fa-fw"></i>
-            <span class="navlinkName">
-              Clients
-            </span>
-          </a>
+          <i class="far fa-building fa-fw"></i>
+          <%= link_to 'Clients', clients_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <a href="projects.php" class="nav-link">
-            <i class="fas fa-folder fa-fw"></i>
-            <span class="navlinkName">
-              Projects
-            </span>
-          </a>
+          <i class="fas fa-folder fa-fw"></i>
+          <%= link_to 'Projects', projects_path, class: "nav-link" %>
         </li>
 
         <!-- OTHER SECTION-->
@@ -72,20 +52,13 @@
           <small>OTHER</small>
         </li>
         <li class="nav-item">
-          <a href="hobbies.php" class="nav-link">
-            <i class="fas fa-quidditch fa-fw"></i>
-            <span class="navlinkName">
-              Hobbies
-            </span></a>
-          </li>
-          <li class="nav-item">
-            <a href="engagements.php" class="nav-link">
-              <i class="fas fa-globe-asia fa-fw"></i>
-              <span class="navlinkName">
-                Engagements
-              </span>
-            </a>
-          </li>
+          <i class="fas fa-quidditch fa-fw"></i>
+          <%= link_to 'Hobbies', hobbies_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <i class="fas fa-globe-asia fa-fw"></i>
+          <%= link_to 'Engagements', engagements_path, class: "nav-link" %>
+        </li>
 
           <!-- CONTACT SECTION-->
           <li class="list-group-item sidebar-separator menu-collapsed submenu">
