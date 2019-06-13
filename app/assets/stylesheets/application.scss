@@ -12,3 +12,17 @@
 @import "components/index";
 @import "components/menu";
 @import "pages/index";
+
+.container {
+  min-height: 85vh;
+  padding: 72px 32px;
+}
+
+p {
+  line-height: 2;
+  font-weight: 300;
+}
+
+a:hover {
+  text-decoration: none;
+}
