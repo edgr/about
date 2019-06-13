@@ -17,6 +17,16 @@
   padding: none;
 }
 
+.icon-bar {
+  width: 24px;
+  height: 2px;
+  background-color: $white;
+  display: block;
+  transition: all 0.2s;
+  margin-top: 6px
+}
+
+
 .submenu {
   background-color: $lighterblue;
   border: none;
@@ -48,4 +58,32 @@
   :hover {
     color: $white;
   }
+}
+
+// This section is for the animation of the button
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 5% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 5% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
 }
