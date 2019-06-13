@@ -2,6 +2,10 @@
   background-color: $blue;
 }
 
+#navMenu {
+  margin-top: 16px;
+}
+
 .navbar-brand {
   margin-left: 20px;
 }
@@ -25,27 +29,27 @@
 }
 
 .nav-item {
-  margin-left: 20px;
   display: flex;
   align-items: center;
+  padding: 4px 20px;
+
+  &:hover {
+    background-color: $lighterblue;
+  }
   i {
     color: $white;
     margin-right: 8px;
   }
   .nav-link {
     width: 100%;
-    &:hover {
-      background-color: red;
-    }
   }
 }
 
 // These are submenus titles
 
 .submenu {
-  background-color: $lighterblue;
+  background-color: $lightblue;
   border: none;
-  margin-top: 20px;
   color: $white;
 }
 
@@ -72,7 +76,7 @@
   background-color: $white;
   display: block;
   transition: all 0.3s;
-  margin-top: 6px
+  margin: 6px 0;
 }
 
 .navbar-toggler .top-bar {
@@ -86,7 +90,7 @@
 
 .navbar-toggler .bottom-bar {
   transform: rotate(-45deg);
-  transform-origin: 5% 90%;
+  transform-origin: 4% 90%;
 }
 
 .navbar-toggler.collapsed .top-bar {
