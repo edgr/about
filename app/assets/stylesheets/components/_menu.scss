@@ -1,0 +1,106 @@
+#navbarMenu {
+  background-color: $blue;
+}
+
+#navMenu {
+  margin-top: 16px;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+}
+
+.navbar-toggler {
+  border: none;
+  margin-right: 10px;
+  color: $white;
+  &:focus {
+    outline: none;
+  }
+}
+
+.navbar-nav {
+  display: flex;
+  padding: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: $white;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 4px 20px;
+
+  &:hover {
+    background-color: $lighterblue;
+  }
+  i {
+    color: $white;
+    margin-right: 8px;
+  }
+  .nav-link {
+    width: 100%;
+  }
+}
+
+// These are submenus titles
+
+.submenu {
+  background-color: $lightblue;
+  border: none;
+  color: $white;
+}
+
+// This section is for the contact section and social icons
+
+#contact {
+  margin-left: 20px;
+}
+
+.socialicon {
+  color: $white;
+  font-size: 40px;
+  margin-right: 16px;
+  &:hover {
+    color: $white;
+  }
+}
+
+// This section is for navbar toggler and its animation
+
+.icon-bar {
+  width: 24px;
+  height: 2px;
+  background-color: $white;
+  display: block;
+  transition: all 0.3s;
+  margin: 6px 0;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 5% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 4% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
