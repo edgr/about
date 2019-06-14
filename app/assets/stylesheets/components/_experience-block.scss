@@ -20,8 +20,8 @@
 .experience_text_block {
   padding: 0;
   li {
-  margin-bottom: 8px;
-}
+    margin-bottom: 8px;
+  }
 }
 
 li {
@@ -30,4 +30,15 @@ li {
 
 i {
   margin-right: 8px;
+}
+
+// CSS for quotes
+
+.quote {
+  margin-bottom: 16px;
+}
+
+.blockquote {
+  margin-bottom: 0;
+  font-style: italic;
 }
