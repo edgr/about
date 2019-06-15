@@ -49,37 +49,22 @@
   color: $white;
 }
 
-#submenu-1 {
-  background-color: #293e60;
+#submenu-1, .submenu-1-item {
+  background-color: #273e60;
 }
 
-.submenu-1-item {
-  background-color: #293e60;
+#submenu-2, .submenu-2-item {
+  background-color: #2d476d;
 }
 
-#submenu-2 {
-  background-color: #2f486d;
+#submenu-3, .submenu-3-item {
+  background-color: #355178;
 }
 
-.submenu-2-item {
-  background-color: #2f486d;
+#submenu-4, .submenu-4-item {
+  background-color: #3b5981;
 }
 
-#submenu-3 {
-  background-color: #375178;
-}
-
-.submenu-3-item {
-  background-color: #375178;
-}
-
-#submenu-4 {
-  background-color: #3d5981;
-}
-
-.submenu-4-item {
-  background-color: #3d5981;
-}
 // This section is for the contact section and social icons
 
 #contact {
