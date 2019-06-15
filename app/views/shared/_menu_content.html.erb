@@ -1,10 +1,10 @@
 <!-- RESUME SECTION-->
-<li class="list-group-item sidebar-separator menu-collapsed submenu">
+<li id="submenu-1" class="list-group-item sidebar-separator menu-collapsed submenu">
   <small>
     RESUME
   </small>
 </li>
-<li class="nav-item">
+<li class="nav-item submenu-1-item">
   <%= link_to(experience_path, html_options = { class: "nav-link" }) do %>
   <i class="fas fa-briefcase fa-fw"></i>
   <span>
@@ -13,7 +13,7 @@
   <% end %>
 
 </li>
-<li class="nav-item">
+<li class="nav-item submenu-1-item">
   <%= link_to(education_path, html_options = { class: "nav-link" }) do %>
   <i class="fas fa-graduation-cap fa-fw"></i>
   <span>
@@ -21,7 +21,7 @@
   </span>
   <% end %>
 </li>
-<li class="nav-item">
+<li class="nav-item submenu-1-item">
   <%= link_to(skills_path, html_options = { class: "nav-link" }) do %>
   <i class="fas fa-dumbbell fa-fw"></i>
   <span>
@@ -31,12 +31,12 @@
 </li>
 
 <!-- CURRENT SECTION-->
-<li class="list-group-item sidebar-separator menu-collapsed submenu">
+<li id="submenu-2" class="list-group-item sidebar-separator menu-collapsed submenu">
   <small>
     CURRENT
   </small>
 </li>
-<li class="nav-item">
+<li class="nav-item submenu-2-item">
   <%= link_to(clients_path, html_options = { class: "nav-link" }) do %>
   <i class="far fa-building fa-fw"></i>
   <span>
@@ -44,7 +44,7 @@
   </span>
   <% end %>
 </li>
-<li class="nav-item">
+<li class="nav-item submenu-2-item">
   <%= link_to(projects_path, html_options = { class: "nav-link" }) do %>
   <i class="fas fa-folder fa-fw"></i>
   <span>
@@ -54,12 +54,12 @@
 </li>
 
 <!-- OTHER SECTION-->
-<li class="list-group-item sidebar-separator menu-collapsed submenu">
+<li id="submenu-3" class="list-group-item sidebar-separator menu-collapsed submenu">
   <small>
     LIFESTYLE
   </small>
 </li>
-<li class="nav-item">
+<li class="nav-item submenu-3-item">
   <%= link_to(hobbies_path, html_options = { class: "nav-link" }) do %>
   <i class="fas fa-quidditch fa-fw"></i>
   <span>
@@ -67,7 +67,7 @@
   </span>
   <% end %>
 </li>
-<li class="nav-item">
+<li class="nav-item submenu-3-item">
   <%= link_to(engagements_path, html_options = { class: "nav-link" }) do %>
   <i class="fas fa-globe-asia fa-fw"></i>
   <span>
@@ -77,12 +77,12 @@
 </li>
 
 <!-- CONTACT SECTION-->
-<li class="list-group-item sidebar-separator menu-collapsed submenu">
+<li id="submenu-4" class="list-group-item sidebar-separator menu-collapsed submenu">
   <small>
     CONTACT
   </small>
 </li>
-<div id="contact" class="d-flex justify-content-start">
+<div id="contact" class="d-flex justify-content-start submenu-4-item">
   <a class="socialicon" href="https://github.com/edgr/" target="_blank">
     <i class="fab fa-github"></i>
   </a>
