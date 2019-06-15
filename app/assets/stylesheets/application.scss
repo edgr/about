@@ -27,8 +27,13 @@ p {
   font-weight: 300;
 }
 
-a:hover {
+a {
   text-decoration: none;
+  color: $lightblue;
+  font-weight: bolder;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 #logoabaca {
