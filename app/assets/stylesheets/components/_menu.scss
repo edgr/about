@@ -1,18 +1,15 @@
 #navbarMenu {
   background-color: $blue;
-}
-
-#navMenu {
-  margin-top: 16px;
+  padding: 0;
 }
 
 .navbar-brand {
-  margin-left: 20px;
+  margin: 12px;
 }
 
 .navbar-toggler {
   border: none;
-  margin-right: 10px;
+  margin: 12px;
   color: $white;
   &:focus {
     outline: none;
@@ -34,7 +31,7 @@
   padding: 4px 20px;
 
   &:hover {
-    background-color: $lighterblue;
+    background-color: $lightblue;
   }
   i {
     color: $white;
@@ -45,18 +42,48 @@
   }
 }
 
-// These are submenus titles
+// These are submenus styles
 
 .submenu {
-  background-color: $lightblue;
   border: none;
   color: $white;
 }
 
+#submenu-1 {
+  background-color: #0277BD;
+}
+
+.submenu-1-item {
+  background-color: #0277BD;
+}
+
+#submenu-2 {
+  background-color: #0288D1;
+}
+
+.submenu-2-item {
+  background-color: #0288D1;
+}
+
+#submenu-3 {
+  background-color: #039BE5;
+}
+
+.submenu-3-item {
+  background-color: #039BE5;
+}
+
+#submenu-4 {
+  background-color: #03A9F4;
+}
+
+.submenu-4-item {
+  background-color: #03A9F4;
+}
 // This section is for the contact section and social icons
 
 #contact {
-  margin-left: 20px;
+  padding-left: 20px;
 }
 
 .socialicon {
