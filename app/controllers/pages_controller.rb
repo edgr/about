@@ -20,7 +20,7 @@ class PagesController < ApplicationController
   def hobbies
   end
 
-  def engagements
+  def lifestyle
   end
 
   def download_pdf
