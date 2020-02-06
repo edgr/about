@@ -43,6 +43,19 @@ a {
   max-width: 200px;
 }
 
+#bhlogo {
+  width: 60%;
+  margin: auto;
+}
+
+.experience_block {
+  .key_info {
+    a {
+      display: flex;
+    }
+  }
+}
+
 #logolr {
   width: 80%;
   height: auto;
